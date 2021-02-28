@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <title>VisuAlg | Visualize Algorithms</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="main-header">
+            <h1>VisuAlg</h1>
+        </div>
+        <div class="nav">
+            <div class="container">
+                <div class="alg-btn-container">
+                    <button class="btn alg-btn" id="shuffle">Shuffle Array</button>
+                    <button class="btn alg-btn" id="increase">Increase Size</button>
+                    <button class="btn alg-btn" id="decrease">Decrease Size</button>
+                </div>
+                <hr>
+                <div class="sort-btn-container">
+                    <button class="btn alg-btn" id="bubbleSort">Bubble Sort</button>
+                    <button class="btn alg-btn" id="insertionSort">Insertion Sort</button>
+                    <button class="btn alg-btn" id="selectionSort">Selection Sort</button>
+                    <button class="btn alg-btn" id="quickSort">Quick Sort</button>
+                    <button class="btn alg-btn" id="mergeSort">Merge Sort</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section: VisuAlg Canvas -->
+    <section id="canvas-container">
+        <canvas id="visuArr"></canvas>
+        <div class="canv-btn-container">
+            <button class="btn canv-btn" id="stop">Stop</button>
+            <button class="btn canv-btn" id="speedIncrease">Speed +</button>
+            <button class="btn canv-btn" id="speedDecrease">Speed -</button>
+        </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
