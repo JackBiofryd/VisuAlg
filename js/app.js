@@ -335,7 +335,6 @@ function bubbleSort() {
     }
 
     nextStepInAlg();
-    changeArrayBtns(true);
 }
 
 // Function that visualizes Insertion Sort
